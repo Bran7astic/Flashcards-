@@ -35,10 +35,11 @@ function App() {
 
   return (
     <>
-      <h1>Flashcards oh yeah</h1>
-      <h3>Description goes here</h3>
+      <h1>Volleyball Flashcards!</h1>
+      <h3 id="desc">Test your volleyball knowledge with these interactive flashcards!</h3>
+      <br/>
       <Flashcard text={reveal? key : val} onClick={toggleCard}/>
-      <button onClick={nextCard}> →</button>
+      <button className="nextButton" onClick={nextCard}> →</button>
     </>
   );
 }
