@@ -36,7 +36,8 @@ function App() {
   return (
     <>
       <h1>Volleyball Flashcards!</h1>
-      <h3 id="desc">Test your volleyball knowledge with these interactive flashcards!</h3>
+      <h3 id="">Test your volleyball knowledge with these interactive flashcards!</h3>
+      <h4 id="desc">Number of cards: {cardSet.length}</h4>
       <br/>
       <Flashcard text={reveal? key : val} onClick={toggleCard}/>
       <button className="nextButton" onClick={nextCard}> →</button>
