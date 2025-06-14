@@ -15,7 +15,7 @@ The following **required** functionality is completed:
   - [x] Title of card set is displayed 
   - [x] A short description of the card set is displayed 
   - [x] A list of card pairs is created
-  - [ ] The total number of cards in the set is displayed 
+  - [x] The total number of cards in the set is displayed 
   - [x] Card set is represented as a list of card pairs (an array of dictionaries where each dictionary contains the question and answer is perfectly fine)
 - [x] **A single card at a time is displayed**
   - [x] Only one half of the information pair is displayed at a time
