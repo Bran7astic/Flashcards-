@@ -12,10 +12,11 @@ function Header(props) {
         />
         <h1>Volleyball Flashcards!</h1>
       </div>
-      <h3 id="">
+      <hr></hr>
+      <h3 id="desc">
         Test your volleyball knowledge with these interactive flashcards!
       </h3>
-      <h4 id="desc">Number of cards: {props.amount}</h4>
+      <h4 id="">Number of cards: {props.amount}</h4>
       <br />
     </>
   );
