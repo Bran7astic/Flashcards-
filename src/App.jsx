@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <Header amount={cardSet.length} />
-      <Flashcard text={reveal ? back : front} onClick={toggleCard} />
+      <Flashcard text={`${index+1}. ${reveal ? back : front}`}/>
       <Guess/>
       <Controls/>
     </>

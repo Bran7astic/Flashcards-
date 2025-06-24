@@ -2,10 +2,12 @@ import "../App.css"
 
 function Guess() {
     return (
-        <>
-            'Hello'
+        <div>
+            Answer: 
+            <input type="text" />
             <br/>
-        </>
+            <button>Submit</button>
+        </div>
     );
 }
 

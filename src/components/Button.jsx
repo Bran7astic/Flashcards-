@@ -1,12 +1,16 @@
-import '../App.css'
+import "../App.css";
 
 function Button(props) {
-    return (
-         <button className="nextButton" onClick={props.action}>
-        {" "}
-        {props.text}
-      </button>         
-    );
+
+  return (
+    <button
+      className="button"
+      onClick={props.action}
+      style={{ backgroundColor: props.active ? "#ef863d" : "#20212d" }}
+    >
+      {props.text}
+    </button>
+  );
 }
 
 export default Button;

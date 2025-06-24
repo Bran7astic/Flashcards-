@@ -38,7 +38,14 @@
   justify-content: center;
 }
 
-.nextButton{
+.button{
   background-color: #ef863d;
+  margin: 5px;
   color: white;
+}
+
+.controls{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
 }
