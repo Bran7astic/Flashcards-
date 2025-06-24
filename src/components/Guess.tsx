@@ -28,7 +28,7 @@ function Guess() {
   };
 
   const borderColor =
-    correct === null ? "transparent" : correct ? "green" : "red";
+    correct === null ? "transparent" : correct ? "#a3ff96" : "#de4318";
 
   return (
     <div className="guess">
