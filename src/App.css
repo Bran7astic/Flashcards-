@@ -45,7 +45,7 @@
 
 .button{
   background-color: #ef863d;
-  margin: 5px;
+  margin: 10px;
   color: white;
   border-color: transparent;
 }
@@ -54,4 +54,30 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
+}
+
+.guess{
+  display: flex;
+  margin: 0 auto;
+  width: 50px;
+  justify-content: center;
+}
+
+.answer{
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 25px;
+  text-align: center;
+  color: white;
+  background-color: #20212d;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.submit{
+  height: 30px;
+  line-height: 10px;
+  font-size: 13px;
+  text-align: center;
+  color: #20212d;
 }

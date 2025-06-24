@@ -11,10 +11,8 @@ import { ActionContext } from "./ActionContext";
 function App() {
   // console.log(cardSet[0].key, cardSet[0].val)
 
-  const {index, reveal, toggleCard} = useContext(ActionContext);
+  const {index, reveal, front, back} = useContext(ActionContext);
 
-  const front = cardSet[index].front;
-  const back = cardSet[index].back;
   //console.log(key, val);
 
   return (
